@@ -1,0 +1,11 @@
+.related {
+    .title {
+        font-weight: 550;
+        font-size: $related-font-size;
+        font-family: $global-serif-font-family;
+
+        &:hover {
+          color: $theme-color;
+        }
+      }
+}
