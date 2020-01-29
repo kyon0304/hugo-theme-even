@@ -24,6 +24,13 @@
   .post-nav {
     margin: 1em 0;
     @include clearfix;
+    &::before {
+      display: inline;
+    }
+
+    &::after {
+      display: inline;
+    }
 
     .prev,
     .next {
